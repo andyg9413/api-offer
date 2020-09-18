@@ -1,0 +1,506 @@
+{
+	"info": {
+		"_postman_id": "5cfd8cc9-65c3-4e9d-95df-2b63f65c32af",
+		"name": "agile-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Company",
+			"item": [
+				{
+					"name": "localhost:3002/api/rest/v1/company",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Microsoft\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3002/api/rest/v1/company",
+							"host": [
+								"localhost"
+							],
+							"port": "3002",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"company"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3002/api/rest/v1/company/upload/image/5f63e5ef8a670b1d735375ab",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/home/andy/Desktop/photo_2020-08-21_11-26-50.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3002/api/rest/v1/company/upload/image/5f642e4f5d724c49bb93ad67",
+							"host": [
+								"localhost"
+							],
+							"port": "3002",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"company",
+								"upload",
+								"image",
+								"5f642e4f5d724c49bb93ad67"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3002/api/rest/v1/company",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3002/api/rest/v1/company",
+							"host": [
+								"localhost"
+							],
+							"port": "3002",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"company"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3002/api/rest/v1/company/5f63e39c30cfa61b85e727fb",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3002/api/rest/v1/company/5f642e4f5d724c49bb93ad67",
+							"host": [
+								"localhost"
+							],
+							"port": "3002",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"company",
+								"5f642e4f5d724c49bb93ad67"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3002/api/rest/v1/company/5f63e39c30cfa61b85e727fb",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Google\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3002/api/rest/v1/company/5f642e4f5d724c49bb93ad67",
+							"host": [
+								"localhost"
+							],
+							"port": "3002",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"company",
+								"5f642e4f5d724c49bb93ad67"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3002/api/rest/v1/company/5f63e39c30cfa61b85e727fb",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3002/api/rest/v1/company/5f642e4f5d724c49bb93ad67",
+							"host": [
+								"localhost"
+							],
+							"port": "3002",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"company",
+								"5f642e4f5d724c49bb93ad67"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "da5a880e-6df3-4d7f-aeb8-710c4ccc999f",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "af3c3c10-879e-43de-a68f-87083ea9d46b",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Tag",
+			"item": [
+				{
+					"name": "localhost:3002/api/rest/v1/tag",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"React\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3002/api/rest/v1/tag",
+							"host": [
+								"localhost"
+							],
+							"port": "3002",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"tag"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3002/api/rest/v1/tag",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3002/api/rest/v1/tag",
+							"host": [
+								"localhost"
+							],
+							"port": "3002",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"tag"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3002/api/rest/v1/tag/5f63e9de6ea05520a0c27d7e",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3002/api/rest/v1/tag/5f642e935d724c49bb93ad69",
+							"host": [
+								"localhost"
+							],
+							"port": "3002",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"tag",
+								"5f642e935d724c49bb93ad69"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3002/api/rest/v1/tag/5f63e9de6ea05520a0c27d7e",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Nodejs\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3002/api/rest/v1/tag/5f642e935d724c49bb93ad69",
+							"host": [
+								"localhost"
+							],
+							"port": "3002",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"tag",
+								"5f642e935d724c49bb93ad69"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3002/api/rest/v1/tag/5f63e9de6ea05520a0c27d7e",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3002/api/rest/v1/tag/5f642e935d724c49bb93ad69",
+							"host": [
+								"localhost"
+							],
+							"port": "3002",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"tag",
+								"5f642e935d724c49bb93ad69"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Post",
+			"item": [
+				{
+					"name": "localhost:3002/api/rest/v1/post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"title\": \"Backend developer\",\n  \"type\": \"FULL_TIME\",\n  \"location\": \"USA\",\n  \"postTags\": [\n    \"Python\"\n  ],\n  \"companyId\": \"5f642ef5ab19764a4c17a8e0\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3002/api/rest/v1/post",
+							"host": [
+								"localhost"
+							],
+							"port": "3002",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3002/api/rest/v1/post?tags=5f63f37a4040df27dcb3de74,5f63f8a7bb8cc92b8e48210c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3002/api/rest/v1/post?tags=5f63f37a4040df27dcb3de74,5f63f8a7bb8cc92b8e48210c&limit=4",
+							"host": [
+								"localhost"
+							],
+							"port": "3002",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"post"
+							],
+							"query": [
+								{
+									"key": "tags",
+									"value": "5f63f37a4040df27dcb3de74,5f63f8a7bb8cc92b8e48210c"
+								},
+								{
+									"key": "limit",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3002/api/rest/v1/post/5f63f4a1cea9ad28556d0016",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3002/api/rest/v1/post/5f642f1aab19764a4c17a8e3",
+							"host": [
+								"localhost"
+							],
+							"port": "3002",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"post",
+								"5f642f1aab19764a4c17a8e3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3002/api/rest/v1/post/5f63f4a1cea9ad28556d0016",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"Frontend developer\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3002/api/rest/v1/post/5f642f1aab19764a4c17a8e3",
+							"host": [
+								"localhost"
+							],
+							"port": "3002",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"post",
+								"5f642f1aab19764a4c17a8e3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3002/api/rest/v1/post/5f63f4a1cea9ad28556d0016",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3002/api/rest/v1/post/5f642f1aab19764a4c17a8e3",
+							"host": [
+								"localhost"
+							],
+							"port": "3002",
+							"path": [
+								"api",
+								"rest",
+								"v1",
+								"post",
+								"5f642f1aab19764a4c17a8e3"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "253d4190-0d2d-46f2-b4e7-6727a5133b67",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "6ef0ce05-b465-4c52-a2ab-b346930042e0",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
