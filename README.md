@@ -70,6 +70,10 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 - Website - [https://nestjs.com](https://nestjs.com/)
 - Twitter - [@nestframework](https://twitter.com/nestframework)
 
+## Annotations
+You need to have a minio local server or an account on AWS to upload company's image. Also in the getAll endpoint in posts the optional param (tags) you need to pass it like this:
+Ex: localhost:3002/api/rest/v1/post?tags=5f63f37a4040df27dcb3de74,5f63f8a7bb8cc92b8e48210c
+
 ## License
 
   Nest is [MIT licensed](LICENSE).
